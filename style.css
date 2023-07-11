@@ -1,0 +1,38 @@
+body{
+    background: url("./background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+    #heading{
+        color:rgba(250, 8, 8, 0.927);
+        width: 977px;
+        text-align:center;
+        margin:auto;
+    }
+    #content{
+        display: flex;
+        background:rgba(0,0,0,0.7);
+        height: 350px;
+        width: 1050px;
+        margin: auto;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    img{
+        height: 100px;
+        width: 150px;
+        border: 3px solid whitesmoke;
+        counter-increment: 60%;
+        border-bottom-left-radius: 60%;
+    }
+
+    #title{
+        color: rgb(227, 234, 8);
+        
+        display: flex;
+        width: 750px;
+        background-color: grey;
+        justify-content: space-around;
+        margin: auto;
+    }
